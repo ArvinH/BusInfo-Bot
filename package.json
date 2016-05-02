@@ -17,7 +17,10 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-telegram": "^0.1.0"
+    "hubot-telegram": "^0.1.0",
+		"cheerio": "^0.17.0",
+    "pinyin": "^2.3.3",
+    "request": "^2.40.0"
   },
   "engines": {
     "node": "0.10.x"
