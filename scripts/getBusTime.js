@@ -4,7 +4,7 @@ module.exports = (robot) => {
 	robot.hear(/get (.*) (.*)/i, (res) => {
 		bus(res.match[1], function(err, data) {
 			if (!err) {
-				var result = (data['back'] || data['back']).filter(function(item, i) {
+				var result = (data['go'] || data['back']).filter(function(item, i) {
 					if (item.name === res.match[2]) {
 						return item;
 					}
